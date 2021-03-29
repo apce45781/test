@@ -1,14 +1,17 @@
 public class test {
     public static void main(String[] args) {
-        int a = 4158964;
-        String dd = "yrdyrdyrdyrdyrd";
-        System.out.println(a + ":test_git:" + dd);
-        new test_class().test1();
+        new nn();
+        System.out.println(":test_git:" + 55688);
     }
 }
 
-class test_class {
-    public void test1() {
-        System.out.println("test1");
+class nn {
+    public nn() {
+        System.out.println("show nn");
+        ff();
+    }
+
+    public void ff() {
+        System.out.println("show ff");
     }
 }
